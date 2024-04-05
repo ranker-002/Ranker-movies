@@ -1,0 +1,10 @@
+{
+    "html.format.contentUnformatted": "",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": 800,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontFamily": "",
+    "terminal.integrated.cursorStyle":"line",
+    "terminal.integrated.cursorWidth": 1,
+    "terminal.integrated.shell.linux": "/usr/bin/bash"
+}

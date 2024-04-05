@@ -1,0 +1,190 @@
+/* Dashboard.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+ 
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding-top: 50px;
+}
+
+.sidebar-header {
+    font-size: 38px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid #555;
+    border-radius: 20px 0px 0px 20px;
+    transition: 0.8s;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    transition: 0.8s;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.nav li {
+
+    padding: 50px 20px;
+    border-bottom: 1px solid #555;
+}
+
+.nav li a {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+
+.nav li a i {
+    color: white;
+    margin-right: 10px;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+
+.welcom{
+    position: absolute;
+    margin-left: 250px ;
+    width: 85%;
+    height: 70%;
+    padding: 0;
+    background-image: url("./document/db1.png");
+    background-position: center;
+    top: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcom h1{
+    position: absolute;
+    top: -70px;
+    left: 25%;
+}
+
+.welcom img{
+    position: absolute;
+    top: 100%;
+    width: 800px;
+    text-align: justify;
+}
+
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    visibility: hidden;
+}
+
+.stat-box {
+    position: relative;
+    top: 50px;
+    background-color: #cdc1c14f;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 3px 5px #333;
+    z-index: -100;
+}
+
+.stat-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-content .add-movie {
+    position: absolute;
+    margin: 200px;
+    padding: 200px;
+    background-color: rgb(40, 121, 17);
+    top: 0;
+    visibility: hidden;
+}
+
+.main-content .manage-admin {
+    position: absolute;
+    margin: 200px;
+    padding: 200px;
+    background-color: rgb(45, 130, 195);
+    top: 0;
+    visibility: hidden;
+}
+
+.main-content .settings {
+    position: absolute;
+    margin: 200px;
+    padding: 200px;
+    background-color: rgb(197, 29, 29);
+    top: 0;
+    visibility: hidden;
+}
+
+
+
+
+.boutton{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-color: #333;
+    top: 13px;
+    color: white;
+    border-radius: 50px;
+    box-shadow: none;
+    left: 94%;
+    font-weight: bold;
+}
+
+.boutton span{
+    position: relative;
+    font-weight: bold;
+}
+.nav-change{
+    background: linear-gradient(
+        to right,
+        #2c3e50,
+        #80878c  );
+    color: black;
+}
+
+.dark-theme{
+    background: linear-gradient(
+        to left,
+        #2c3e50,
+        #80878c   );
+}
+
+.white{
+    color: white;
+}
+.btn-theme{
+    background-color: white;
+    color: rgb(21, 20, 20);
+}
+
